@@ -1,12 +1,19 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body {
+    background: rgb(254,198,106);
+    background: radial-gradient(circle, rgba(254,198,106,1) 0%, rgba(253,187,45,1) 100%);
+}
+.calculator-base {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(40, 49, 60);
+}
+.calculator-screen {
+    width: 400px;
+    height: 110px;
+    background-color: rgb(52, 60, 66);
+}
+.key {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(79, 60, 208);
+}
