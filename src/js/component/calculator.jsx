@@ -4,7 +4,7 @@ const Calculator = () => {
 	return (
 		<div className="container">
             <div className="row d-flex justify-content-center">
-                <div className="calculator-base mt-5 rounded-3 d-flex justify-content-center">
+                <div className="calculator-base mt-5 rounded-3 d-flex">
                     <div className="calculator-screen rounded-3 mt-3 mx-1"></div>
                     <div className="keys-row1 justify-content-evenly text-center text-white">
                         <div className="key rounded-3 display-5 text-white">c</div>
