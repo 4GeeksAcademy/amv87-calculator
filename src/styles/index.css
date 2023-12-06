@@ -4,24 +4,26 @@ body {
 }
 .calculator-base {
     width: 400px;
-    height: 600px;
+    height: 622px;
     background-color: rgb(40, 49, 60);
     margin: auto;
 }
 .calculator-screen {
-    width: 380px;
+    width: 370px;
     height: 110px;
     background-color: rgb(52, 60, 66);
+    line-height: 140px;
+    margin: auto;
 }
 .key {
     width: 80px;
     height: 80px;
     background-color: rgb(79, 60, 208);
-    line-height: 70px; 
+    line-height: 80px; 
 
 }
 .key-equal {
-    width: 160px;
+    width: 176px;
     height: 80px;
     background-color: rgb(243, 61, 29);
     line-height: 70px; 
