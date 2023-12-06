@@ -6,9 +6,10 @@ body {
     width: 400px;
     height: 600px;
     background-color: rgb(40, 49, 60);
+    margin: auto;
 }
 .calculator-screen {
-    width: 400px;
+    width: 380px;
     height: 110px;
     background-color: rgb(52, 60, 66);
 }
