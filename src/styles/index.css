@@ -19,12 +19,27 @@ body {
     width: 80px;
     height: 80px;
     background-color: rgb(79, 60, 208);
-    line-height: 80px; 
+    line-height: 80px;
+    border: none;
+    color: white;
 
+}
+.key:hover {
+    background-color: rgb(70, 52, 184);
+}
+.key:active {
+    background-color: rgb(127, 109, 241);
 }
 .key-equal {
     width: 176px;
     height: 80px;
     background-color: rgb(243, 61, 29);
-    line-height: 70px; 
+    line-height: 70px;
+    color: white;
+}
+.key-equal:hover {
+    background-color: rgb(199, 50, 23);
+}
+.key-equal:active {
+    background-color: rgb(238, 111, 89);
 }
