@@ -35,6 +35,7 @@ body {
     height: 80px;
     background-color: rgb(243, 61, 29);
     line-height: 70px;
+    border: none;
     color: white;
 }
 .key-equal:hover {
