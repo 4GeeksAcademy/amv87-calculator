@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Calculator = () => {
+    const [calc, setCalc] = useState('0')
+
+
 	return (
 		<div className="container">
                 <div className="calculator-base mt-5 rounded-3">
                     <div className="row"></div>
                     <div className="m-0 my-2 row d-flex ustify-content-center rounded-3 mt-3 mx-1 text-end text-white">
-                        <div className="calculator-screen rounded-3 display-2">9876</div>
+                        <div className="calculator-screen rounded-3 display-2">{calc}</div>
                     </div>
                     <div className="keys-row1 mx-0 my-3 row d-flex justify-content-evenly text-center">
                         <button type="button" value="C" className="key rounded-3 display-5">C</button>
