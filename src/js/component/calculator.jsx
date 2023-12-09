@@ -6,9 +6,11 @@ const Calculator = () => {
         num: 0,
         res: 0
     })
+    const [calc2, setCalc2] = useState()
 
     function handleClick(value) {
         console.log(value)
+        setCalc(value)
     }
 
 	return (
@@ -26,7 +28,7 @@ const Calculator = () => {
                     </div>
                     <div className="keys-row2 mx-0 my-3 row d-flex justify-content-evenly text-center">
                         <button onClick={()=>handleClick(7)} value="7" className="key rounded-3 display-5">7</button>
-                        <button onClick={handleClick} value="8" className="key rounded-3 display-5">8</button>
+                        <button onClick={()=>handleClick(8)} value="8" className="key rounded-3 display-5">8</button>
                         <button onClick={handleClick} value="9" className="key rounded-3 display-5">9</button>
                         <button onClick={handleClick} value="x" className="key rounded-3 display-5">x</button>
                     </div>
