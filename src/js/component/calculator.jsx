@@ -6,7 +6,7 @@ const Calculator = () => {
         num: 0,
         res: 0
     })
-    const [calc2, setCalc2] = useState()
+
 
     function handleClick(value) {
         console.log(value)
