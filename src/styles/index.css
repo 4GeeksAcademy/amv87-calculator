@@ -11,7 +11,7 @@ body {
 .calculator-screen {
     width: 370px;
     height: 110px;
-    background-color: rgb(51, 60, 66);
+    background-color: rgb(50, 60, 66);
     line-height: 140px;
     margin: auto;
 }
